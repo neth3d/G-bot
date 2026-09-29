@@ -1669,6 +1669,13 @@ a:hover.back-to-top {
 
 
 /* Botones de planes de capacitación */
+.ext-arrow {
+	width: 0.7em;
+	height: 0.7em;
+	margin-left: 0.28em;
+	vertical-align: baseline;
+}
+
 .planes-botones {
 	display: flex;
 	flex-wrap: wrap;
@@ -1729,6 +1736,19 @@ a:hover.back-to-top {
 	.basic-2 .text-container {
 		margin-left: auto;
 		margin-right: 0;
+	}
+
+	/* Capacitaciones: la foto arranca a la altura del título y ocupa un poco más */
+	.basic-3 {
+		padding-top: 7rem;
+	}
+
+	.basic-3 .text-container {
+		margin-top: 0;
+	}
+
+	.basic-3 .image-container {
+		margin-left: -1.5rem;
 	}
 
 	/* Desarrolladores: texto y foto lado a lado, sin superposición */
