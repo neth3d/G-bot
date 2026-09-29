@@ -1708,6 +1708,29 @@ a:hover.back-to-top {
 		margin-bottom: 0;
 	}
 
+	/* Hazlo tú mismo: la foto arranca en la misma línea que el resto del contenido */
+	.basic-2 .row {
+		position: relative;
+	}
+
+	.basic-2 .image-area {
+		position: static;
+	}
+
+	.basic-2 .image-container {
+		right: auto;
+		left: calc((100% - 1140px) / 2 + 15px);
+	}
+
+	.basic-2 .text-area {
+		padding-right: calc((100% - 1140px) / 2 + 15px);
+	}
+
+	.basic-2 .text-container {
+		margin-left: auto;
+		margin-right: 0;
+	}
+
 	/* Desarrolladores: texto y foto lado a lado, sin superposición */
 	.basic-6 {
 		padding-bottom: 6rem;
