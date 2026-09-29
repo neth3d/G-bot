@@ -1685,3 +1685,48 @@ a:hover.back-to-top {
 	background-color: transparent;
 	color: #4b00d7;
 }
+
+
+/*****************************************/
+/*     Ajustes de maquetación NeTH3D     */
+/*****************************************/
+@media (min-width: 992px) {
+	.basic-1 .row {
+		align-items: center;
+	}
+}
+
+@media (min-width: 1200px) {
+	/* Qué es G-bot: texto centrado con la foto, sin el hueco blanco de abajo */
+	.basic-1 {
+		padding-top: 13rem;
+		padding-bottom: 7rem;
+	}
+
+	.basic-1 .text-container {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	/* Desarrolladores: texto y foto lado a lado, sin superposición */
+	.basic-6 {
+		padding-bottom: 6rem;
+	}
+
+	.basic-6 .col-lg-12 {
+		display: flex;
+		align-items: center;
+		gap: 3rem;
+	}
+
+	.basic-6 .text-container {
+		position: static;
+		bottom: auto;
+		width: 48%;
+	}
+
+	.basic-6 .image-container {
+		width: 52%;
+		margin-left: 0;
+	}
+}
