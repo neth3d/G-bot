@@ -1666,3 +1666,22 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+
+/* Botones de planes de capacitación */
+.planes-botones {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem 1.25rem;
+	margin-top: 2rem;
+}
+
+.btn-violeta {
+	border-color: #4b00d7;
+	background-color: #4b00d7;
+}
+
+.btn-violeta:hover {
+	background-color: transparent;
+	color: #4b00d7;
+}
